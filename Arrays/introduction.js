@@ -18,7 +18,6 @@ console.log(arr2);
 for(let i = 0; i < arr.length; i++){
     console.log(arr[i]);
 }
-
 //Method 2 of retrieving data
 for(const value of arr2){
     console.log(value);
