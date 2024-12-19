@@ -21,7 +21,7 @@ sendMoney(moneySentNotification, 100);
 console.log("---------------------------------")
 // -------------Here you have managed it successfully but suppose if you hadn't how this would look life
 
-// ---------> suppose this function inside setTimeout is called first but somehow it is delay due to any issue so we will surely want, moneyNotification wait to execute this function first but it's no going to happen in js
+// ---------> suppose this function inside setTimeout is called first but somehow it is delay due to any issue so we will surely want, moneyNotification wait to execute this function first but it's not going to happen in js
 
 function senddMoney(paisa){
     // console.log("money sent successfully", paisa);
