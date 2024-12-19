@@ -22,3 +22,6 @@ for(let i = 0; i < arr.length; i++){
 for(const value of arr2){
     console.log(value);
 }
+
+const newArr = [...arr];
+console.log(newArr);
