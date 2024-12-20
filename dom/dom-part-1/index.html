@@ -12,5 +12,12 @@
     <div id="container">
         <h1>DOM PART 1</h1>
     </div>
+    <div id="part">
+        <h2 onclick="alert(`part div is clicked`)">Let's see the inline event listeners</h2>
+    </div>
+
+    <script>
+        document.querySelector("#part").onclick = () => alert(`Kuch kuch hua yar`);
+    </script>
 </body>
 </html>
