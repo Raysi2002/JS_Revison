@@ -24,3 +24,4 @@ glink.addEventListener("click", (e) => {
     }
 })
 // <------- suppose we are having submit button, and we don't want it to work if the check box isn't marked or some field is empty then we can do this using preventDefault method
+
